@@ -48,7 +48,7 @@ def main():
         #keeps these commented to verify commands before execution
         #if it's uncommented it will execute the command and create the user account
         #print(cmd)
-        #os.system(cmd)
+        os.system(cmd)
 
         #Displays a message indicating that the password is set
         print("==> Setting the password for %s..." % (username))
@@ -59,7 +59,7 @@ def main():
         #Keeps commented to verify if it's correct
         #If it's uncommented it will set the user's password
         #print(cmd)
-        #os.system(cmd)
+        os.system(cmd)
 
         for group in groups:
             #Checks if the group is not '-' which means their isn't a group assignment
@@ -68,7 +68,7 @@ def main():
                 print("==> Assigning %s to the %s group..." % (username,group))
                 cmd = "/usr/sbin/adduser %s %s" % (username,group)
                 #print(cmd)
-                #os.system(cmd)
+                os.system(cmd)
 
 if __name__ == '__main__':
     main()
