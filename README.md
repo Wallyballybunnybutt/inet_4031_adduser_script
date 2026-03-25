@@ -21,8 +21,9 @@ groups- groups are separated with a comma and have a '-' if a group is not neede
 
 You can test the script without making any system changes.
 Steps:
-Comment out all lines containing:
+1. Comment out all lines containing:
 os.system(cmd)
-Uncomment the corresponding:
+2. Uncomment the corresponding:
 print(cmd)
+
 This will display the commands that would be executed without actually creating users.
