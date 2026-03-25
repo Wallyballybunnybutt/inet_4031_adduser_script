@@ -3,6 +3,10 @@
 This program reads a file that contains user information and automatically the system commands to then create the users. The user doesn't need to feed them any information just prepare the correct input for the input file and then run the script. This program should be run in the terminal. 
 
 ## Input file format:
+Each line in the input file represents a single user and must contain exactly five fields separated by colons (:):
+
+username:password:first_name:last_name:groups
+
 
 Each line of the input represents one of the file fields:
 
