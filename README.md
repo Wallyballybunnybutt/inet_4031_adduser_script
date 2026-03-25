@@ -1,4 +1,4 @@
-#Program Description
+# Program Description
 
 This program reads a file that contains user information and automatically the system commands to then create the users. The user doesn't need to feed them any information just prepare the correct input for the input file and then run the script. This program should be run in the terminal. 
 
