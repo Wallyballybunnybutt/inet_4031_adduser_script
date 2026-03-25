@@ -18,7 +18,7 @@ Each line of the input represents one of the file fields:
 * if a line starts with '#' and doesn't have 5 fields it is then skipped
 ### Additional Rules
 * Lines starting with # are treated as comments and skipped
-# Lines that do not contain exactly 5 fields are ignored
+* Lines that do not contain exactly 5 fields are ignored
 
 ## Command Execution:
 1. make sure you have both create-users files
