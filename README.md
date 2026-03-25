@@ -19,5 +19,11 @@ groups- groups are separated with a comma and have a '-' if a group is not neede
 
 ## "Dry Run":
 
-If the os.system() is commented out then it will run a "dry run" which it will print out the commands but won't change the system. You can see the input files without making any changes.
+You can test the script without making any system changes.
+Steps:
+Comment out all lines containing:
+os.system(cmd)
+Uncomment the corresponding:
+print(cmd)
+This will display the commands that would be executed without actually creating users.
 
