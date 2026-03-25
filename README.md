@@ -11,7 +11,7 @@ Each line of the input represents one of the file fields:
 * first name- used in the display name of the program
 * last name- used in the display name of the program
 * groups- groups are separated with a comma and have a '-' if a group is not needed
--if a line starts with '#' and doesn't have 5 fields it is then skipped
+* if a line starts with '#' and doesn't have 5 fields it is then skipped
 
 ## Command Execution:
 1. make sure you have both create-users files
