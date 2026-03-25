@@ -30,8 +30,8 @@ Each line of the input represents one of the file fields:
 You can test the script without making any system changes.
 Steps:
 1. Comment out all lines containing:
-os.system(cmd)
+** os.system(cmd)
 2. Uncomment the corresponding:
-print(cmd)
+** print(cmd)
 
 This will display the commands that would be executed without actually creating users.
