@@ -18,7 +18,7 @@ groups- groups are separated with a comma and have a '-' if a group is not neede
 3. run "sudo ./create-users.py < create-users.input"
 
 ## "Dry Run":
-``
+`````
 You can test the script without making any system changes.
 Steps:
 Comment out all lines containing:
@@ -26,4 +26,4 @@ os.system(cmd)
 Uncomment the corresponding:
 print(cmd)
 This will display the commands that would be executed without actually creating users.
-``
+`````
