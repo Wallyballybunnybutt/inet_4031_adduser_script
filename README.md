@@ -1,6 +1,6 @@
 # Program Description
 
-This program reads a file that contains user information and automatically the system commands to then create the users. The user doesn't need to feed them any information just prepare the correct input for the input file and then run the script. This program should be run in the terminal. 
+This program reads an input file containing user account information and automatically executes system commands to create those users on a Linux system. The user does not need to manually enter information during execution; instead, they prepare the input file in the correct format and run the script. 
 
 ## Input file format:
 Each line in the input file represents a single user and must contain exactly five fields separated by colons (:):
